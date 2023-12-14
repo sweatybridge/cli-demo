@@ -1,3 +1,3 @@
 # cli-demo
 
-Demo project for setting up local development.
+Demo project for preview branching.
