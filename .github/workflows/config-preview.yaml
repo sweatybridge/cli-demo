@@ -28,7 +28,7 @@ jobs:
   apply:
     needs:
       - wait
-    if: ${{ needs.wait.outputs.status === 'success' }}
+    if: ${{ needs.wait.outputs.status == 'success' }}
     runs-on: ubuntu-latest
     env:
       SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
